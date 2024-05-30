@@ -1,0 +1,99 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.line {
+  width: 60%; /* Full width */
+  height: 3px; /* Line height */
+  background-color: #000; /* Line color */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}
+
+.smallText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222357;
+}
+
+.searchCont {
+  display: flex;
+  justify-content: center;
+}
+
+.searchDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  width: 60%;
+}
+
+.startCenter {
+  display: flex;
+  justify-content: start;
+}
+
+.smallSearchDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.searchText {
+  line-height: 20px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #222357;
+}
+
+.smallerSearchDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55%;
+  align-items: center;
+}
+
+.bigDivRightStart {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 100%;
+  align-items: center;
+}
+
+
+
+
+.miniSearchDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
+  align-items: center;
+}
+
+.averageSearchDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 75%;
+}
+.columnForRows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkboxes {
+  width: 40px;
+  height: 40px;
+}

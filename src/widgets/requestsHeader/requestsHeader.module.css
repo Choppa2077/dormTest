@@ -1,0 +1,54 @@
+/* .headerSection {
+  display: flex;
+  justify-content: center;
+  line-height: 20px;
+  font-size: 32px;
+} */
+
+.header {
+  background: white; /* Header background color */
+}
+
+.headerSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #222357;
+  transition: background-color 0.3s, color 0.3s;
+  height: 144px;
+}
+
+.headerSection a {
+  color: inherit; /* Inherit text color from the parent div */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px 20px; /* Add padding for better appearance */
+  border-radius: 5px; /* Add some border-radius for rounded corners */
+}
+
+.active {
+  background-color: #222357;
+  color: white;
+}
+
+.active a {
+  color: white;
+}
+
+.linkText {
+  line-height: 20px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.line {
+  width: 100%; /* Full width */
+  height: 1px; /* Line height */
+  background-color: #000; /* Line color */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}
+
+.content {
+  padding: 20px; /* Main content padding */
+}

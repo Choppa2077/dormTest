@@ -1,0 +1,9 @@
+.submitButton {
+  background-color: #222357;
+
+  max-width: 532px;
+  color: white;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 24px;
+}

@@ -1,0 +1,16 @@
+.indexInputDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.indexInput {
+  max-width: 532px;
+  height: 60px;
+  border-radius: 20px;
+  border-color: #222357;
+}
+
+.iconStyle {
+  padding-right: 10px;
+}

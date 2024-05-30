@@ -1,0 +1,10 @@
+.defaultDropdown {
+
+  height: 48px;
+  border: 1px solid #788bb9;
+}
+
+.dropdownContent{
+    display: flex;
+    justify-content: space-between;
+}

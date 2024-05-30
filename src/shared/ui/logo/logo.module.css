@@ -1,0 +1,11 @@
+.logoDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+}

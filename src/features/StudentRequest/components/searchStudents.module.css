@@ -1,0 +1,22 @@
+
+.searchDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  width: 60%;
+}
+
+.searchText {
+  line-height: 20px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #222357;
+}
+
+.searchInput {
+  width: 337.5px;
+  height: 40px;
+  border-radius: 30px;
+  border: 2px solid #788bb9;
+}
